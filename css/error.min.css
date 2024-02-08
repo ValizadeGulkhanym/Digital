@@ -1,0 +1,78 @@
+.error {
+  min-height: 100vh;
+  background: url(../img/gradients/bg/1080x1080px/01.jpg) center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.error_logo {
+  display: none;
+}
+.error_main {
+  color: #fff;
+}
+.error_main-title {
+  margin: 15px 0;
+}
+.error_main-title .emoji {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.error_main-title .emoji img {
+  width: 258px;
+}
+@media screen and (min-width: 767.98px) {
+  .error {
+    position: relative;
+  }
+  .error .container {
+    position: relative;
+    z-index: 2;
+  }
+  .error_logo {
+    display: block;
+    position: absolute;
+    bottom: 54px;
+    right: 0;
+    z-index: 1;
+    max-width: 1060px;
+  }
+  .error_main-title {
+    margin: 30px 0;
+    font-size: 86px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 730px;
+  }
+  .error_main-title .emoji {
+    margin: -25px 0 0 15px;
+  }
+}
+@media screen and (min-width: 1023.98px) {
+  .error_main-title {
+    margin: 30px 0;
+  }
+}
+@media screen and (min-width: 1169.98px) {
+  .error_main {
+    margin-left: 490px;
+  }
+}
+/*# sourceMappingURL=../sourcemaps/error.css.map */

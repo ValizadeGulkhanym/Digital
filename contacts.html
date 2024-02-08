@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+   <meta charset=UTF-8>
+   <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1">
+   <meta http-equiv=X-UA-Compatible content="ie=edge">
+   <title>Contacts</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <link rel="stylesheet preload" as=style href="css/preload.min.css">
+   <link rel="stylesheet preload" as=style href="css/icomoon.css">
+   <link rel="stylesheet preload" as=style href="css/libs.min.css">
+   <link rel="stylesheet" href="css/index.min.css">
+</head>
+
+<body class="other">
+
+   <!-- HEADER STARTS -->
+   <header class="header" data-page="home" data-page-parent="home">
+      <div class="header_bg">
+         <picture>
+            <img class="lazy" data-src="img/gradients/10.png" src="./img/gradients/10.png" alt="media">
+         </picture>
+      </div>
+      <div class="container d-flex header-box">
+         <a class="header_logo logo" href="index.html">
+            <span class="header_logo-wrapper">
+               buta by kb
+             </span>
+         </a>
+         <nav class="header_nav text--medium text--md collapse" id="headerMenu">
+            <ul class="header_nav-list">
+               <li class="header_nav-list_item">
+                  <a class="nav-item nav-link" href="index.html" data-page="index" data-single="true">
+                     <span class="nav-item_text">Ana Səhifə</span>
+                  </a>
+               </li>
+               <li class="header_nav-list_item">
+                  <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+                     <span class="nav-item_text">Haqqımızda</span>
+                  </a>
+               </li>
+               <li class="header_nav-list_item dropdown">
+                  <a class="nav-link nav-item dropdown-toggle" href="portfolio.html" data-bs-toggle="collapse"
+                     data-bs-target="#casesMenu" data-trigger="dropdown" data-page-parent="cases" data-main-link="true"
+                     aria-expanded="false" aria-controls="casesMenu">
+                     <span class="nav-item_text">Portfolio</span>
+                  </a>
+               </li>
+               <li class="header_nav-list_item dropdown">
+                  <a class="nav-link nav-item dropdown-toggle" href="faq.html" data-bs-toggle="collapse"
+                     data-bs-target="#newsMenu" data-trigger="dropdown" data-page-parent="news" data-main-link="true"
+                     aria-expanded="false" aria-controls="newsMenu">
+                     <span class="nav-item_text">F.A.Q</span>
+                  </a>
+                  <div class="dropdown-menu collapse" id="newsMenu"></div>
+               </li>
+               <li class="header_nav-list_item dropdown">
+                  <a class="nav-link nav-item dropdown-toggle" href="blog-list.html" data-bs-toggle="collapse"
+                     data-bs-target="#shopMenu" data-trigger="dropdown" data-page-parent="shop" data-main-link="true"
+                     aria-expanded="false" aria-controls="shopMenu">
+                     <span class="nav-item_text">Bloq</span>
+                  </a>
+                  <div class="dropdown-menu collapse" id="shopMenu"></div>
+               </li>
+               <li class="header_nav-list_item dropdown resp-contact">
+                  <a class="nav-link nav-item dropdown-toggle" href="contacts.html" data-bs-toggle="collapse"
+                     data-bs-target="#shopMenu" data-trigger="dropdown" data-page-parent="shop" data-main-link="true"
+                     aria-expanded="false" aria-controls="shopMenu">
+                     <span class="nav-item_text">Bizimlə əlaqə</span>
+                  </a>
+                  <div class="dropdown-menu collapse" id="shopMenu"></div>
+               </li>
+            </ul>
+         </nav>
+         <div class="header_user">
+            <a class="header_user-btn btn btn--outline" href="contacts.html">Bizimlə Əlaqə <i
+                  class="fa-solid fa-arrow-right"></i></a>
+         </div>
+         <button class="header_trigger" id="headerTrigger" data-bs-toggle="collapse" data-bs-target="#headerMenu"
+            aria-controls="headerMenu" aria-expanded="true" type="button">
+            <i class="fa fa-bars"></i>
+            <!-- SVG Path data here -->
+            </svg>
+         </button>
+      </div>
+   </header>
+   <!-- HEADER END -->
+
+   <!--MAIN STARTS-->
+   <ul class="breadcrumbs">
+      <li><a class="link" href="index.html">Ana Səhifə</a></li>
+      <li><span>Bizimlə əlaqə</span></li>
+   </ul>
+   <main class="contacts section">
+      <div class="contacts_bg">
+         <picture>
+            <img class="lazy" data-src="./img/gradients/06.png" src="./img/gradients/06.png" alt="media">
+         </picture>
+      </div>
+      <div class="container">
+         <div class="contacts_main">
+            <div class="contacts_main-header">
+               <div class="contacts_main-header_icon rotate shape">
+                  <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M42.993 69L34.5 51.2698L26.007 69L16.1104 64.9008L22.6419 46.3582L4.09932 52.8899L0 42.993L17.7302 34.5L0 26.007L4.09932 16.1103L22.6419 22.6418L16.1104 4.09921L26.007 0L34.5 17.7302L42.993 0L52.8899 4.09921L46.3582 22.6418L64.9008 16.1103L69 26.007L51.2698 34.5L69 42.993L64.9008 52.8899L46.3582 46.3582L52.8899 64.9008L42.993 69Z"
+                        fill="currentColor" />
+                  </svg>
+               </div>
+               <h1 class="contacts_main-header_title outlined outlined--black" data-aos="fade-down">Bizimlə Əlaqə</h1>
+            </div>
+
+            <ul class="contacts_main-info">
+               <li class="contacts_main-info_item">
+                  <h4 class="title">Bizi izləyin</h4>
+                  <ul class="socials socials--alt">
+                     <li><a href="https://instagram.com/khanbutagroup.az/" target="_blank" rel="noopener noreferrer"><i
+                              class="fa-brands fa-instagram"></i></a></li>
+                     <li><a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer"><i
+                              class="fa-brands fa-tiktok"></i></a></li>
+                     <li><a href="https://www.youtube.com/@khanbutagroup1732" target="_blank"
+                           rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+                     <li><a href="https://www.facebook.com/khanbutagroup" target="_blank" rel="noopener noreferrer"><i
+                              class="fa-brands fa-square-facebook"></i></a></li>
+                     <li><a href="https://api.whatsapp.com/message/PPD7WHUEIU3DG1?autoload=1&app_absent=0"
+                           target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-whatsapp"></i></a>
+                     </li>
+                     <li><a href="https://www.linkedin.com/company/khanbutagroup/" target="_blank"
+                           rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+                     <li><a href="https://www.behance.net/khanbutagroup" target="_blank" rel="noopener noreferrer"><i
+                              class="fa-brands fa-square-behance"></i></a></li>
+                  </ul>
+               </li>
+
+               <li class="contacts_main-info_item">
+                  <h4 class="title">Bizimlə Əlaqə</h4>
+                  <div class="content d-flex flex-column">
+                     <a class="link link--underline" href="tel:+994552046664"> +994552046664</a>
+                     <a class="link link--underline" href="mailto:info@khanbutagroup.az">info@khanbutagroup.az</a>
+                  </div>
+               </li>
+               <li class="contacts_main-info_item">
+                  <h4 class="title">Unvan</h4>
+                  <div class="content"><span>Əhməd Rəcəbli 1/4, Qobustan Plaza <span class="linebreak">Bakı,
+                           Azərbaycan</span></span></div>
+               </li>
+            </ul>
+         </div>
+         <div class="contacts_media">
+            <picture><img class="lazy" data-src="img/contacts/media.jpg" src="img/contacts/media.jpg" alt="media">
+            </picture>
+         </div>
+      </div>
+   </main>
+
+   <!--MAIN ENDS-->
+   <button class="scrollTrigger" id="scrollTrigger"><i class="icon-to-top"></i></button>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+   <script src="js/common.min.js"></script>
+   <script src="js/lottie.min.js"></script>
+   <script src="js/index.min.js"></script>
+   <script src="js/blog.min.js"></script>
+   <script src="js/post.min.js"></script>
+   <script src="js/faq.min.js"></script>
+   <script src="js/ticker.min.js"></script>
+
+
+</body>
+
+</html>

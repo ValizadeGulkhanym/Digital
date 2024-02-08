@@ -1,0 +1,248 @@
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-Regular"),
+    url(../fonts/Archivo-Regular.woff2) format("woff2"),
+    url(../fonts/Archivo-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-Italic"),
+    url(../fonts/Archivo-Italic.woff2) format("woff2"),
+    url(../fonts/Archivo-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-Medium"),
+    url(../fonts/Archivo-Medium.woff2) format("woff2"),
+    url(../fonts/Archivo-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-MediumItalic"),
+    url(../fonts/Archivo-MediumItalic.woff2) format("woff2"),
+    url(../fonts/Archivo-MediumItalic.woff) format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-SemiBold"),
+    url(../fonts/Archivo-SemiBold.woff2) format("woff2"),
+    url(../fonts/Archivo-SemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-Bold"), url(../fonts/Archivo-Bold.woff2) format("woff2"),
+    url(../fonts/Archivo-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-ExtraBold"),
+    url(../fonts/Archivo-ExtraBold.woff2) format("woff2"),
+    url(../fonts/Archivo-ExtraBold.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Archivo;
+  src: local("Archivo-Black"), url(../fonts/Archivo-Black.woff2) format("woff2"),
+    url(../fonts/Archivo-Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=../sourcemaps/preload.css.map */
+.socials li i {
+  font-size: 24px;
+  color: #f1b84b;
+}
+.social_index_part1 li i {
+  color: #212122;
+}
+.home_links_active {
+  border-bottom: 2px solid red;
+}
+
+.brands_header-title {
+  font-size: 86px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+.brands_header-subtitle {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.blogdetail_h1_wrapper h1 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.cards_main_title {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1.3;
+}
+.section_nav_wrapper,
+.post_num_h3_wrapper,
+.accordion-header-wrapper,
+.faq_form-title_wrapper,
+.faq_header-title_wrapper,
+.hero_main-title_wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.section_nav-title {
+  font-size: 21px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.cards_main_title_wrapper .cta_main-content_title_wrapper,
+.banner_main_title_wrapper,
+.content_main-title_wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cards_main_title_wrapper {
+  padding-top: 20px;
+}
+.case_content-banner_wrapper,
+.case_header-title_wrapper,
+.cta_main-content_text_wrapper,
+.accordion-body_wrapper,
+/* .hero_main-text_wrapper, */
+.content_main-text_wrapper,
+.cover_title_wrapper,
+.hero_main-title_wrapper,
+.features_main-text_wrapper,
+.main_title_h4_wrapper,
+.banner_content_wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.case_content-general .main_table-block .title {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.sign-phone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #212122;
+  color: #212122;
+  border-radius: 2px;
+  height: 46px;
+  padding: 4px 20px;
+
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.sign-phone span {
+  margin: 4px;
+}
+.firstoftrio {
+  aspect-ratio: 746/548;
+}
+.secondoftrio {
+  aspect-ratio: 1550/1931;
+}
+.thirdoftrio {
+  aspect-ratio: 299/288;
+}
+.error_and_input_wrapper {
+  width: 100%;
+}
+@media (min-width: 720px) {
+  .case_content-general .main_table-block .title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .blogdetail_h1_wrapper h1 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .cards_main_title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .section_nav-title {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+.textarea_and_error_wrapper {
+  width: 100%;
+  display: block;
+}
+
+.name_and_email_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.name_and_email_wrapper #error-message-name,
+.name_and_email_wrapper #error-message-tel {
+  margin-top: 10px;
+}
+.name_and_email_wrapper .input-group {
+  width: 100%;
+}
+.name_and_email_wrapper #contactsName {
+  width: 100%;
+  margin-right: 10px;
+}
+@media screen and (min-width: 1169.98px) {
+  .section_nav-title {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .case_content-general .main_table-block .title {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+}
+
+.footer .active_footer_nav {
+  color: #f1b84b;
+}
